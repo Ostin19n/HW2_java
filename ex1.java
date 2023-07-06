@@ -2,7 +2,7 @@
 //Если значение null, то параметр не должен попадать в запрос.
 //Параметры для фильтрации: {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
 
-public class Task01 {
+public class ex1 {
     public static void main(String[] args) {
 
         StringBuilder request = new StringBuilder();   
