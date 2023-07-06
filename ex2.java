@@ -43,7 +43,7 @@ public class ex2 {
         return sortArray;
     }
     static void WriteToFile(int[] array) {                                           
-        try (FileWriter f = new FileWriter("logTask02.txt", true)) {
+        try (FileWriter f = new FileWriter("logex2.txt", true)) {
             f.write(Arrays.toString(array));
             f.write("\n");
         } catch (Exception e) {
